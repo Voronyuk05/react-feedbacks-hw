@@ -19,6 +19,10 @@ h2 {
     margin: 0px;
 }
 
+h3 {
+    color: white;
+}
+
 .options {
     width: 600px;
     height: 50px;
