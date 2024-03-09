@@ -1,0 +1,57 @@
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 70vw;
+    height: 60vh;
+    background-color: #f1c50e;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+}
+
+.options {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    &:hover {
+        background: #3a86ff;
+        color: white;
+    }
+}
+
+span {
+    font-size: 26px;
+    color: #3a86ff;
+}
